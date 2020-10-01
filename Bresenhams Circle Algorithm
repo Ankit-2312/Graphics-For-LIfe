@@ -48,6 +48,14 @@ void circleBres(int xc, int yc, int r)
 	} 
 } 
 
-
+// Your code needs a driver function 	
+int main() 	
+{ 	
+	int cir = 50, cor = 50, r2 = 30; 	
+	int gd = DETECT, gm; 	
+	initgraph(&gd, &gm, ""); // initializing the library graph 	
+	circleBres(cir, cor, r2); // function call under execution 	
+	return 0; 	
+} 
 
 
