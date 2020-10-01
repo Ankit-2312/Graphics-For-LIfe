@@ -49,13 +49,5 @@ void circleBres(int xc, int yc, int r)
 } 
 
 
-// driver function 
-int main() 
-{ 
-	int xc = 50, yc = 50, r2 = 30; 
-	int gd = DETECT, gm; 
-	initgraph(&gd, &gm, ""); // initialize graph 
-	circleBres(xc, yc, r); // function call 
-	return 0; 
-} 
+
 
